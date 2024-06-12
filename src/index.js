@@ -1,10 +1,11 @@
-import { Client, IntentsBitField, EmbedBuilder } from "discord.js";
-import mongoose from "mongoose";
-import { CommandHandler, ReadyHandler, InteractionHandler } from "ic4d";
+const { Client, IntentsBitField, EmbedBuilder } = require("discord.js");
+const mongoose = require("mongoose");
+const { CommandHandler, ReadyHandler, InteractionHandler } = require("ic4d");
 const config = require("../config.json");
+require("dotenv").config();
 
-import { botStatus } from "./status.js";
-import path from "path";
+const botStatus = require("./status.js");
+const path = require("path");
 
 const client = new Client({
     intents: [

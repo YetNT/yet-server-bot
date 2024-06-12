@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import { ActivityType, Client, PresenceData } from "discord.js";
+const { ActivityType, Client, PresenceData } = require("discord.js");
 
 const presences = (status) => {
     let st = {};

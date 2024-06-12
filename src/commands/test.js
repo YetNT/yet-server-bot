@@ -1,5 +1,5 @@
-import { SlashCommandObject } from "ic4d";
-import { Client } from "discord.js";
+const { SlashCommandObject } = require("ic4d");
+const { Client } = require("discord.js");
 
 const a = new SlashCommandObject({
     name: "ping",
