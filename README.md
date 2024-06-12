@@ -1,0 +1,2 @@
+# yet-server-bot
+yes
